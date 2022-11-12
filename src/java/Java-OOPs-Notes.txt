@@ -1,0 +1,101 @@
+Java
+
+   - platform independent language
+
+                bytecode --> can be executable
+                     |
+                    JVM
+             windows linux  other OS
+                |       |       |
+          java code   java    java code
+
+    - JVM is platform dependent , platform means OS
+
+JAVA internals
+    -   Java Development Kit (JDK)    - it is tangabile
+            Java Virtual Machine JVM
+            Java Run time Environment
+
+How to install Java
+    - we have in the setup doc
+
+Java basically an OOP's
+    Class       - blueprint or prototype of object
+    Object      - data  and methods
+
+
+OOPS features
+    Abstraction
+        - implementation is kept hidden to outside
+    inheritance
+        - properties would be derived from one state to another
+        - access specifier , default , public , private and protected
+        - applied to class , methods , variables , packages , interfaces
+
+    encapsulation
+        - biding the data and variable together is encapsulation
+        - object and class ->data and method
+    polymorphism-->hold for now
+        -changing the state based on situations
+        - runtime and compile time polymorphism -->overloading and overriding
+
+Basis Syntax of Java
+    - First program
+    - compilation : javac FileName.java
+    - runtime command : java ClassName
+    - How we can create object - using new keyword
+    - new , break , return , exit ---reserved
+
+
+Variable
+    int , float , double , String, char 'c' , boolean true/false
+    default values and their ranges
+loops
+    for loop , while loop , do while , switch
+    break , continue
+    operators  + , & , - , / , ==, !=
+
+
+memory management
+     arrays 1
+     arrays integer-->integer only
+     array String--> only String data type
+
+            sectors
+     010110 010111 011000
+
+     -> bottle -> water  -->water bottle
+     -> integer --> integer Array
+
+Strings
+    String variable_name = "Java";
+    String variable_name =  new String("Java") ;
+        + gives concatenation on two strings
+        "Java " + "learning" = Java learning
+        "Java"+"Learn" = JavaLearn
+
+        substring:  "Learn Java easily"  Learn, Java,easily
+        "Java"
+        replace:
+        "Learn/Java/easily/Learn/Java/easily"
+         "LearnJavaeasilyLearnJavaeasily"
+          "Learn Java easily Learn Java easily"
+
+
+
+
+
+
+
+
+
+
+
+//
+
+Write simple java Programs for
+1.printing your name
+2.addition of two numbers
+3.use loops and condition statements and try to write print 1 to 10 nums ascending and descending
+
+
