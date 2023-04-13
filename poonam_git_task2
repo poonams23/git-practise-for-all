@@ -1,0 +1,9 @@
+Github Task -2 
+•	Create a your-release branch out of master
+•	Create a your-dummy branch also out of master
+•	Now change a file in your-release branch , commit and push
+•	Now change same file in your-dummy branch commit and push
+•	Now raise PR from your-dummy to your-release branch
+•	Need to get conflicts
+•	Need to resolve it from GUI
+•	From your-dummy to your-release branch
